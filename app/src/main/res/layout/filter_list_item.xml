@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checked_text_view"
+    style="@android:style/Widget.Holo.Light.CheckedTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/filter_list_item_bg"
+    android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+    android:elevation="2dp"
+    android:ellipsize="end"
+    android:paddingStart="10dip"
+    android:paddingEnd="7dip"
+    android:textAlignment="textStart"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:textSize="14sp" />

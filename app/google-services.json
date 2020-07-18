@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "852344862579",
+    "firebase_url": "https://hangover-243509.firebaseio.com",
+    "project_id": "hangover-243509",
+    "storage_bucket": "hangover-243509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852344862579:android:ed941df76ae27588",
+        "android_client_info": {
+          "package_name": "com.stefanlippl.hangover"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852344862579-kb6drlm0apbb318hg7j4bu59ssei5kvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWhYKpqi1RnNElyQcuGXEpD61xNyK2yMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852344862579-kb6drlm0apbb318hg7j4bu59ssei5kvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/star"
+            android:title="@string/events" />
+        <item
+            android:id="@+id/nav_locations"
+            android:icon="@drawable/locations"
+            android:title="@string/locations" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_persönlicherBereich"
+            android:icon="@drawable/persoenlicherbereich"
+            android:title="@string/pers_nlicher_bereich" />
+        <item
+            android:id="@+id/nav_taxi"
+            android:icon="@drawable/call_a_taxi"
+            android:title="@string/call_a_taxi"/>
+    </group>
+
+    <item android:title="@string/rechtliches">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_agb_datenschutz"
+                android:icon="@drawable/ic_agb_datenschutz"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_impressum"
+                android:icon="@drawable/ic_impressum"
+                android:title="@string/menu_send" />
+            </group>
+        </menu>
+
+    </item>
+
+
+</menu>
